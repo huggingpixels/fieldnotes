@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.3.0">
   <diagram name="Page-1" id="3_s2YQfjyhcl5ewgO-3n">
-    <mxGraphModel dx="692" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="572" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,10 @@
           <mxGeometry height="190" width="160" x="180" y="110" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Deno / TS" vertex="1">
-          <mxGeometry height="120" width="160" x="420" y="120" as="geometry" />
+          <mxGeometry height="160" width="160" x="420" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Authentication" vertex="1">
-          <mxGeometry height="110" width="160" x="420" y="370" as="geometry" />
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Keycloak" vertex="1">
+          <mxGeometry height="80" width="160" x="420" y="380" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="File Storage" vertex="1">
           <mxGeometry height="110" width="160" x="660" y="235" as="geometry" />
@@ -52,14 +52,32 @@
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=6;" value="&lt;span&gt;Published as NPM package to be shared with Angular&lt;/span&gt;" vertex="1">
           <mxGeometry height="20" width="140" x="190" y="-20" as="geometry" />
         </mxCell>
-        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Database" vertex="1">
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Postgres" vertex="1">
           <mxGeometry height="110" width="160" x="660" y="110" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=6;" value="&lt;span&gt;Permission framework: Limit access to explicit ENV variables, no access to system info, allow all for network&lt;/span&gt;" vertex="1">
           <mxGeometry height="25" width="140" x="430" y="145" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=6;" value="oak (HTTP middleware)&lt;div&gt;OpenTelemetry (built in)&lt;/div&gt;&lt;div&gt;Drizzle ORM (fallback Kysely but that has no migrations)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="140" x="430" y="180" as="geometry" />
+          <mxGeometry height="30" width="140" x="430" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;OIDC / RBAC based on group membership&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="140" x="430" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=6;" value="Use defaults for linting and code formatting" vertex="1">
+          <mxGeometry height="15" width="140" x="430" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=6;" value="" vertex="1">
+          <mxGeometry height="15" width="140" x="430" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Use Keycloak API to map groups to roles&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="140" x="430" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="RabbitMQ" vertex="1">
+          <mxGeometry height="80" width="160" x="420" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;No it&#39;s not NATS&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="140" x="430" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
