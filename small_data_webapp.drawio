@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.3.0">
   <diagram name="Page-1" id="3_s2YQfjyhcl5ewgO-3n">
-    <mxGraphModel dx="572" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,7 +101,7 @@
           <mxGeometry height="150" width="760" x="120" y="730" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Infrastructure" vertex="1">
-          <mxGeometry height="420" width="760" x="120" y="900" as="geometry" />
+          <mxGeometry height="360" width="760" x="120" y="900" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=6;" value="Presentation" vertex="1">
           <mxGeometry height="80" width="330" x="160" y="780" as="geometry" />
@@ -131,7 +131,7 @@
           <mxGeometry height="80" width="210" x="630" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=9;" value="HA Postgres" vertex="1">
-          <mxGeometry height="30" width="170" x="650" y="1090" as="geometry" />
+          <mxGeometry height="30" width="170" x="650" y="1096" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="MinIO" vertex="1">
           <mxGeometry height="80" width="210" x="630" y="1160" as="geometry" />
@@ -150,6 +150,33 @@
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=9;" value="Docker DHI Node image" vertex="1">
           <mxGeometry height="30" width="170" x="410" y="1096" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Software Supply Chain" vertex="1">
+          <mxGeometry height="360" width="760" x="120" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="SAST" vertex="1">
+          <mxGeometry height="80" width="205" x="150" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="DAST" vertex="1">
+          <mxGeometry height="80" width="205" x="392.5" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Pipelines" vertex="1">
+          <mxGeometry height="80" width="205" x="630" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="SCM" vertex="1">
+          <mxGeometry height="80" width="205" x="630" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="OCI build" vertex="1">
+          <mxGeometry height="80" width="205" x="390" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="80" width="205" x="150" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=9;" value="W3AF" vertex="1">
+          <mxGeometry height="30" width="170" x="407.5" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=9;" value="SonarQube" vertex="1">
+          <mxGeometry height="30" width="170" x="167.5" y="1350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
