@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.3.0">
   <diagram name="Page-1" id="3_s2YQfjyhcl5ewgO-3n">
-    <mxGraphModel dx="830" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="572" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,22 +14,34 @@
           <mxGeometry height="420" width="200" x="400" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Presentation" vertex="1">
-          <mxGeometry height="420" width="120" x="240" y="80" as="geometry" />
+          <mxGeometry height="420" width="200" x="160" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Angular" vertex="1">
-          <mxGeometry height="40" width="80" x="260" y="110" as="geometry" />
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Angular" vertex="1">
+          <mxGeometry height="190" width="160" x="180" y="110" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Backend" vertex="1">
           <mxGeometry height="120" width="160" x="420" y="120" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TypeScript" vertex="1">
-          <mxGeometry height="40" width="80" x="260" y="160" as="geometry" />
+          <mxGeometry height="40" width="80" x="260" y="320" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Authentication" vertex="1">
           <mxGeometry height="110" width="160" x="420" y="250" as="geometry" />
         </mxCell>
         <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="File Storage" vertex="1">
           <mxGeometry height="110" width="160" x="420" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Signals based, reactive forms&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="140" x="190" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Server side rendering for interactive features&lt;/span&gt;" vertex="1">
+          <mxGeometry height="10" width="140" x="190" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=6;" value="Feature modules loaded on demand, hydrated on demand" vertex="1">
+          <mxGeometry height="20" width="140" x="190" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2YJ-Q8upq4LFDHOQYzH-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=6;" value="Offer Angular Tutor with Gemini as option for reviewing code for best practices" vertex="1">
+          <mxGeometry height="20" width="140" x="190" y="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
